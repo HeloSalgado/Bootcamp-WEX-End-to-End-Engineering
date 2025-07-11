@@ -1,4 +1,5 @@
-﻿using ExemploFundamentos.Models;
+﻿using System.Text;
+using ExemploFundamentos.Models;
 
 Pessoa pessoa = new Pessoa();
 
@@ -14,3 +15,14 @@ int b = int.Parse("5");
 
 int inteiro = 5;
 string c = inteiro.ToString();
+
+Calculadora calculadora = new();
+calculadora.Somar(10, 5);
+calculadora.Sutrair(10, 5);
+calculadora.Multiplicar(10, 5);
+calculadora.Dividir(10, 5);
+calculadora.Potencia(2, 3);
+calculadora.Seno(30);
+calculadora.Coseno(30);
+calculadora.Tangente(30);
+calculadora.RaizQuadrada(25);
