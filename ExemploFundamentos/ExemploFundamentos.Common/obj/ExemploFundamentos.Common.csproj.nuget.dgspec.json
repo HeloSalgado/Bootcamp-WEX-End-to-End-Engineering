@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.csproj": {}
+    "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.csproj": {
+    "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.csproj",
-        "projectName": "ExemploFundamentos",
-        "projectPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+        "projectName": "ExemploFundamentos.Common",
+        "projectPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
         "packagesPath": "C:\\Users\\helos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\obj\\",
+        "outputPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Bootcamp-WEX-End-to-End-Engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\helos\\AppData\\Roaming\\NuGet\\NuGet.Config"

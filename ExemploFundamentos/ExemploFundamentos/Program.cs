@@ -1,10 +1,11 @@
 ﻿using System.Text;
-using ExemploFundamentos.Models;
+using ExemploFundamentos.Common.Models;
 
-Pessoa pessoa = new Pessoa();
-
-pessoa.Nome = "João";
-pessoa.Idade = 30;
+Pessoa pessoa = new()
+{
+    Nome = "João",
+    Idade = 30
+};
 pessoa.Apresentar();
 
 DateTime dataAtual = DateTime.Now;
