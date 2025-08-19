@@ -38,3 +38,33 @@ else
 {
     Console.WriteLine($"{dataString} não é uma data válida.");
 }
+
+// Leitura de arquivo
+try
+{
+    string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+    foreach (string linha in linhas)
+    {
+        Console.WriteLine(linha);
+    }
+}
+catch (FileNotFoundException ex)
+{
+    Console.WriteLine("Arquivo não encontrado: " + ex.Message);
+}
+catch (DirectoryNotFoundException ex)
+{
+    Console.WriteLine("Diretório não encontrado: " + ex.Message);
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Ocorreu uma exceção genérica: " + ex.Message);
+}
+finally
+{
+    Console.WriteLine("Operação de leitura finalizada.");
+}
+
+// Usando Throw para exceções personalizadas
+new ExemploExcecao().Metodo1();
