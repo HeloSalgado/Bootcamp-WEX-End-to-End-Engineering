@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "D2d7iDW6cKpomMkjwrHpECHOch9JEgFBH68ek2x/r+Uwu8Tc6JC2tFliI4viCcANasy0vkvioITDy0mE7E3yoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\helos\\OneDrive\\Documentos\\BootCamp .NET\\trilha-net-fundamentos-desafio\\DesafioFundamentos\\DesafioFundamentos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\helos\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\helos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\helos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\helos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
