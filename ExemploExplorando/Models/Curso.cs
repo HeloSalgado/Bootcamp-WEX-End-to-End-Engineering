@@ -38,10 +38,11 @@ namespace ExemploExplorando.Models
         public void ListarAlunos()
         {
             Console.WriteLine($"Alunos matriculados no curso {Nome}:");
-            foreach (var aluno in _alunos)
+            for (int i = 0; i < Alunos.Count; i++)
             {
-                Console.WriteLine($"Nome: {aluno.NomeCompleto}");
+                Console.WriteLine($"{i + 1} - {Alunos[i].NomeCompleto}");
             }
+
         }
 
         public int ObterQuantidadeDeAlunosMatriculados()
