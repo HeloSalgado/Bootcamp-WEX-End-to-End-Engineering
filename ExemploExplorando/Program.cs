@@ -20,3 +20,21 @@ Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture
 
 double porcentagem = .3421;
 Console.WriteLine(porcentagem.ToString("P"));
+
+// Datetime
+string dataString = "2025-02-09 18:00";
+
+bool sucesso = DateTime.TryParseExact(dataString,
+                       "yyyy-MM-dd HH:mm",
+                       CultureInfo.InvariantCulture,
+                       DateTimeStyles.None,
+                       out DateTime dataConvertida);
+
+if (sucesso)
+{
+    Console.WriteLine($"Data convertida com sucesso: {dataConvertida}");
+}
+else
+{
+    Console.WriteLine($"{dataString} não é uma data válida.");
+}
